@@ -1,6 +1,9 @@
 import requests
 import json
 
+import datetime
+from zoneinfo import ZoneInfo
+
 from bearer_token import token
 
 def write_data(file, response):
@@ -48,6 +51,15 @@ if __name__ == '__main__':
 
     for location in location_list:
         r = get_sensor_data(start, end, resolution, location)
+        
+        # loop over each response to tranform the time to local time
+        for i in r: 
+            #  transform ISPO8601 time to UTC time format, then from UTC to local time
+            local_dt = datetime.datetime.strptime(i['time'], '%Y-%m-%dT%H:%M:%S.%f%z').astimezone(ZoneInfo('Europe/Copenhagen'))
+
+            i['local_date'] = str(local_dt.date())
+            i['local_time'] = str(local_dt.time())
+
         response += r
     
     write_data("sensor-data.json", response)
