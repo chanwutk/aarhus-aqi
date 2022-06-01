@@ -1,0 +1,173 @@
+[
+  {
+    "Date of arrival": "30.04.2022",
+    "Period of time": "7-16",
+    "Weekday": "Saturday",
+    "Name": "Voyager of the Seas",
+    "Nationality (primary)": "American",
+    "Antal Pax": 4000,
+    "Antal crew": 1200
+  },
+  {
+    "Date of arrival": "04.05.2022",
+    "Period of time": "8-18",
+    "Weekday": "Wednesday",
+    "Name": "AIDAluna",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2050,
+    "Antal crew": 587
+  },
+  {
+    "Date of arrival": "10.05.2022",
+    "Period of time": "8-18",
+    "Weekday": "Tuesday",
+    "Name": "AIDAmar",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2600,
+    "Antal crew": 609
+  },
+  {
+    "Date of arrival": "14.05.2022",
+    "Period of time": "10-20",
+    "Weekday": "Saturday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "14.05.2022",
+    "Period of time": "10-19",
+    "Weekday": "Saturday",
+    "Name": "Norwegian Gataway",
+    "Nationality (primary)": "American",
+    "Antal Pax": 3963,
+    "Antal crew": 1640
+  },
+  {
+    "Date of arrival": "17.05.2022",
+    "Period of time": "8-18",
+    "Weekday": "Tuesday",
+    "Name": "AIDAmar",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2600,
+    "Antal crew": 609
+  },
+  {
+    "Date of arrival": "20.05.2022",
+    "Period of time": "8-17",
+    "Weekday": "Friday",
+    "Name": "Rotterdam",
+    "Nationality (primary)": "American",
+    "Antal Pax": 2668,
+    "Antal crew": 1025
+  },
+  {
+    "Date of arrival": "20.05.2022",
+    "Period of time": "10-20",
+    "Weekday": "Friday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "22.05.2022",
+    "Period of time": "8-18",
+    "Weekday": "Sunday",
+    "Name": "AIDAdiva",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "23.05.2022",
+    "Period of time": "8-18",
+    "Weekday": "Monday",
+    "Name": "Celebrity Silhoutte",
+    "Nationality (primary)": "American",
+    "Antal Pax": 3475,
+    "Antal crew": 1000
+  },
+  {
+    "Date of arrival": "29.05.2022",
+    "Period of time": "8-18",
+    "Weekday": "Sunday",
+    "Name": "AIDAdiva",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "30.05.2022",
+    "Period of time": "7-18",
+    "Weekday": "Monday",
+    "Name": "Enchanted Princess",
+    "Nationality (primary)": "American",
+    "Antal Pax": 3660,
+    "Antal crew": 1346
+  },
+  {
+    "Date of arrival": "02.06.2022",
+    "Period of time": "8-18",
+    "Weekday": "Thursday",
+    "Name": "Viking Star",
+    "Nationality (primary)": "American",
+    "Antal Pax": 930,
+    "Antal crew": 465
+  },
+  {
+    "Date of arrival": "05.06.2022",
+    "Period of time": "8-18",
+    "Weekday": "Sunday",
+    "Name": "AIDAdiva",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "06.06.2022",
+    "Period of time": "8-17",
+    "Weekday": "Monday",
+    "Name": "Viking Star",
+    "Nationality (primary)": "American",
+    "Antal Pax": 930,
+    "Antal crew": 465
+  },
+  {
+    "Date of arrival": "09.06.2022",
+    "Period of time": "8-18",
+    "Weekday": "Thursday",
+    "Name": "AIDAmar",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2600,
+    "Antal crew": 609
+  },
+  {
+    "Date of arrival": "10.06.2022",
+    "Period of time": "10-20",
+    "Weekday": "Friday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "10.06.2022",
+    "Period of time": "8-18",
+    "Weekday": "Friday",
+    "Name": "Viking Jupiter",
+    "Nationality (primary)": "American",
+    "Antal Pax": 930,
+    "Antal crew": 465
+  },
+  {
+    "Date of arrival": "14.06.2022",
+    "Period of time": "7-18",
+    "Weekday": "Tuesday",
+    "Name": "Voyager of the Seas",
+    "Nationality (primary)": "American",
+    "Antal Pax": 4000,
+    "Antal crew": 1200
+  }
+]
