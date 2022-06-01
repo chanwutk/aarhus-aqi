@@ -1,46 +1,46 @@
 import requests
 import json
 
-from .token import token
+from bearer_token import token
 
 def write_data(file, response):
-    with open(file, "w") as f:
-        f.write(response.text)
+    with open(file, "w", encoding='utf8') as f:
+        json.dump(response, f, ensure_ascii=False)
 
-def get_sensor_data(start, end): 
+def get_sensor_data(start, end, location): 
 
-    # TODO get the for loop 
-    url = "https://api.cityflow.live/measurements/history/location/252"
+    url = "https://api.cityflow.live/measurements/history/location/" + location
 
     querystring = {"from": start,"to": end}
-
     payload = ""
 
-    #TODO hidden bearer token 
     headers = {'Authorization': token}
 
     response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
     return response
 
-def get_devices_locations():
+def get_devices():
 
     # open all the devices file
-    f = open('all-devices.json')
-    data = json.loads(f)
+    with open('all-devices.json', 'r') as f:
+        data = json.loads(f.read())
 
-    # TODO: filter only from Aarhus
-    filtered = 
+    devices = [d for d in data if d['city'].lower().find('aarhus') >= 0]
+    write_data('aarhus-devices.json', devices)
 
-    # close file
-    f.close()
-
-
-
+    return devices
 
 if __name__ == '__main__':
     
     start = "2022-04-29T00:00:00.000Z"
     end = "2022-05-23T23:59:59.999Z"
+    resolution = "60m"
 
-    #response = get_sensor_data(start, end)
+    devices = get_devices()
+    location_list = [d['location'] for d in devices]
+    print(location_list)
+    response = ""
+
+    
+
     #write_data("sensor-data.json", response)
