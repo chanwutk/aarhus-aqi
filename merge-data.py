@@ -80,7 +80,7 @@ for m in merged_data2:
     dataset_y.append(
         [
             m["mean_mP1" if "mean_mP1" in m else "mean_p1"],
-            m["mean_mP2"] if "mean_mP2" in m else "mean_p2"
+            m["mean_mP2" if "mean_mP2" in m else "mean_p2"]
         ]
     )
     dataset_x.append(
