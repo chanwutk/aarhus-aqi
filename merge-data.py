@@ -100,5 +100,5 @@ for m in merged_data2:
         ]
     )
 
-write_data("dataset_x.json", dataset_x)
-write_data("dataset_y.json", dataset_y)
+write_data("./dataset/dataset_x.json", dataset_x)
+write_data("./dataset/dataset_y.json", dataset_y)
