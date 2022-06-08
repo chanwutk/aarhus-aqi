@@ -62,4 +62,39 @@ for md in merged_data:
         merged_data2.append({**md, "ship": 1, "ships": ships})
 
  
-write_data("sensor_measurement_schedule.json", merged_data2)
+# write_data("sensor_measurement_schedule.json", merged_data2)
+missing_count =0
+total =0
+for m in merged_data2:
+    total = total +1
+    if "mean_mP2" in m:
+        pass
+    else:
+        missing_count = missing_count + 1
+print(total)
+print(missing_count)
+
+dataset_x = []
+dataset_y = []
+for m in merged_data2:
+    dataset_y.append(
+        [
+            m["mean_mP1" if "mean_mP1" in m else "mean_p1"],
+            m["mean_mP2"] if "mean_mP2" in m else "mean_p2"
+        ]
+    )
+    dataset_x.append(
+        [
+            # TODO add rain min/max, #particles
+            m["latitude"],
+            m["longitude"],
+            m["mean_l"],
+            m["mean_p"],
+            m["mean_rA" if "mean_rA" in m else "mean_r.avg"] ,
+            m["mean_t"],
+            len(m['ships']) if m['ship'] == 1 else 0
+        ]
+    )
+
+write_data("dataset_x.json", dataset_x)
+write_data("dataset_y.json", dataset_y)
