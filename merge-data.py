@@ -92,7 +92,11 @@ for m in merged_data2:
             m["mean_p"],
             m["mean_rA" if "mean_rA" in m else "mean_r.avg"] ,
             m["mean_t"],
-            len(m['ships']) if m['ship'] == 1 else 0
+            len(m['ships']) if m['ship'] == 1 else 0,
+            sum(s['Antal Pax'] for s in m['ships']) if m['ship'] == 1 else 0,
+            sum(s['Antal crew'] for s in m['ships']) if m['ship'] == 1 else 0,
+            sum(len(s['time_range']) for s in m['ships']) if m['ship'] == 1 else 0,
+            datetime(*[int(s) for s in m["local_date"].split("-")]).weekday()
         ]
     )
 
