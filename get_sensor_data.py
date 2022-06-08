@@ -2,7 +2,7 @@ import requests
 import json
 
 import datetime
-from zoneinfo import ZoneInfo
+#from zoneinfo import ZoneInfo
 
 from bearer_token import token
 
