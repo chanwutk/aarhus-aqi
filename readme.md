@@ -19,7 +19,6 @@ source .venv/bin/activate
 - [Linear Regression model in Colab](https://github.com/nussarafirn/aarhus-aqi/blob/main/aarhus_aqi.ipynb)
 
 - [Data Explorations and Visualizations on Tableau Public](https://public.tableau.com/views/aqi-prototype/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-- 
 - [Zoom recording](https://washington.zoom.us/rec/share/YkiwIHImbo2qF3PGJcvR2fZS8LZUsm5QlRiRkyk0Xps8GC6opexJAVFxLJM0UiSW.u67s4lrnuccR4RTT?startTime=1654756367000)
 
 
