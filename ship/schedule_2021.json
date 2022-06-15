@@ -1,0 +1,191 @@
+[
+  {
+    "Date of arrival": "17.06.2021",
+    "Period of time": "8-18",
+    "Weekday": "Thursday",
+    "Name": "AIDAdiva",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "26.06.2021",
+    "Period of time": "10-20",
+    "Weekday": "Saturday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },  
+  {
+    "Date of arrival": "28.06.2021",
+    "Period of time": "8-17",
+    "Weekday": "Monday",
+    "Name": "Hanseatic Inspiration",
+    "Nationality (primary)": "German",
+    "Antal Pax": 230,
+    "Antal crew": 175
+  },
+  {
+    "Date of arrival": "10.07.2021",
+    "Period of time": "10-20",
+    "Weekday": "Saturday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "24.07.2021",
+    "Period of time": "10-20",
+    "Weekday": "Saturday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "28.07.2021",
+    "Period of time": "8-18",
+    "Weekday": "Wednesday",
+    "Name": "Celebrity Silhoutte",
+    "Nationality (primary)": "American",
+    "Antal Pax": 3475,
+    "Antal crew": 1000
+  },
+  {
+    "Date of arrival": "07.08.2021",
+    "Period of time": "10-20",
+    "Weekday": "Saturday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "11.08.2021",
+    "Period of time": "10-20",
+    "Weekday": "Wednesday",
+    "Name": "Anthem Of The Seas",
+    "Nationality (primary)": "German",
+    "Antal Pax": 4180,
+    "Antal crew": 760
+  },
+  {
+    "Date of arrival": "12.08.2021",
+    "Period of time": "8-18",
+    "Weekday": "Thursday",
+    "Name": "AIDAdiva",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "21.08.2021",
+    "Period of time": "10-20",
+    "Weekday": "Saturday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "26.08.2021",
+    "Period of time": "10-20",
+    "Weekday": "Thursday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "27.08.2021",
+    "Period of time": "10-20",
+    "Weekday": "Friday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "03.09.2021",
+    "Period of time": "10-20",
+    "Weekday": "Friday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "10.09.2021",
+    "Period of time": "10-20",
+    "Weekday": "Friday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "17.09.2021",
+    "Period of time": "10-20",
+    "Weekday": "Friday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "23.09.2021",
+    "Period of time": "10-20",
+    "Weekday": "Thursday",
+    "Name": "AIDAbella",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "27.09.2021",
+    "Period of time": "10-20",
+    "Weekday": "Monday",
+    "Name": "Anthem Of The Seas",
+    "Nationality (primary)": "German",
+    "Antal Pax": 4180,
+    "Antal crew": 760
+  },
+  {
+    "Date of arrival": "07.10.2021",
+    "Period of time": "8-18",
+    "Weekday": "Thursday",
+    "Name": "AIDAdiva",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2500,
+    "Antal crew": 646
+  },
+  {
+    "Date of arrival": "08.10.2021",
+    "Period of time": "10-19",
+    "Weekday": "Friday",
+    "Name": "Rotterdam",
+    "Nationality (primary)": "Netherlands",
+    "Antal Pax": 3218,
+    "Antal crew": 1025
+  },
+  {
+    "Date of arrival": "16.10.2021",
+    "Period of time": "8-18",
+    "Weekday": "Saturday",
+    "Name": "AIDALuna",
+    "Nationality (primary)": "German",
+    "Antal Pax": 2100,
+    "Antal crew": 607
+  },
+  {
+    "Date of arrival": "12.12.2021",
+    "Period of time": "8-17",
+    "Weekday": "Sunday",
+    "Name": "Hanseatic Spirit",
+    "Nationality (primary)": "German",
+    "Antal Pax": 230,
+    "Antal crew": 175
+  }
+]

@@ -1,3 +1,7 @@
 .venv
 __pycache__
-token.py
+query/bearer_token.py
+query/dmi_token.py
+dmi_data/2021
+dmi_data/2022
+
