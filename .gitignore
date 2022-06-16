@@ -5,3 +5,5 @@ query/dmi_token.py
 dmi_data/2021
 dmi_data/2022
 
+# need to be in GIST
+sensor_data/latest.json
