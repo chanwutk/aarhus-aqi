@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "92abd855-fadf-4557-be73-9b588dd9b29d",
+		"name": "DMI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21112084"
+	},
+	"item": [
+		{
+			"name": "sample-station",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "3122476f-bf46-47f8-887e-0089351d74a7",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dmigw.gocloud.dk/v2/metObs/collections/observation/items?datetime=2018-02-12T00:00:00Z/2018-03-18T12:31:12Z&limit=100&offset=1000&bbox=7,54,16,58",
+					"protocol": "https",
+					"host": [
+						"dmigw",
+						"gocloud",
+						"dk"
+					],
+					"path": [
+						"v2",
+						"metObs",
+						"collections",
+						"observation",
+						"items"
+					],
+					"query": [
+						{
+							"key": "datetime",
+							"value": "2018-02-12T00:00:00Z/2018-03-18T12:31:12Z"
+						},
+						{
+							"key": "limit",
+							"value": "100"
+						},
+						{
+							"key": "offset",
+							"value": "1000"
+						},
+						{
+							"key": "bbox",
+							"value": "7,54,16,58"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " https://dmigw.govcloud.dk/v2/climateData/collections/municipalityValue/items?municipalityId=0147",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dmigw.govcloud.dk/v2/climateData/collections/municipalityValue/items?municipalityId=0147",
+					"protocol": "https",
+					"host": [
+						"dmigw",
+						"govcloud",
+						"dk"
+					],
+					"path": [
+						"v2",
+						"climateData",
+						"collections",
+						"municipalityValue",
+						"items"
+					],
+					"query": [
+						{
+							"key": "municipalityId",
+							"value": "0147"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sample-muni",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dmigw.govcloud.dk/v2/climateData/collections/municipalityValue/items?municipalityId=0751&api-key=a57b109c-8e37-4460-865d-2dd939a06599&datetime=2022-01-01T00:00:00%2B02:00/2022-01-01T01:00:00%2B02:00&timeResolution=hour",
+					"protocol": "https",
+					"host": [
+						"dmigw",
+						"govcloud",
+						"dk"
+					],
+					"path": [
+						"v2",
+						"climateData",
+						"collections",
+						"municipalityValue",
+						"items"
+					],
+					"query": [
+						{
+							"key": "municipalityId",
+							"value": "0751"
+						},
+						{
+							"key": "api-key",
+							"value": "a57b109c-8e37-4460-865d-2dd939a06599"
+						},
+						{
+							"key": "datetime",
+							"value": "2022-01-01T00:00:00%2B02:00/2022-01-01T01:00:00%2B02:00"
+						},
+						{
+							"key": "timeResolution",
+							"value": "hour"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

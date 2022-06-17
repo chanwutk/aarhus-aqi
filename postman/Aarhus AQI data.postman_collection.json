@@ -1,0 +1,224 @@
+{
+	"info": {
+		"_postman_id": "238bb5b4-c2d7-4f87-9e27-feb1c77ccc68",
+		"name": "Aarhus AQI data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21112084"
+	},
+	"item": [
+		{
+			"name": "AH-cityflow-post",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTI0LCJpYXQiOjE2MTk2MzAwMzMsImV4cCI6MTkWM3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.cityflow.live/measurements/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cityflow",
+						"live"
+					],
+					"path": [
+						"measurements",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AH-cityflow-get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTI0LCJpYXQiOjE2MTk2MzAwMzMsImV4cCI6MTkwOTcxNjQzM30.o2XZJEE9RE71Z-2z8oYLYD-9QANbi-fF1iTRvroTrx0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.cityflow.live/measurements/history/device-type/150?from=2022-04-29T10:00:00Z&to=2022-05-23T18:00:00Z&resolution=60m",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cityflow",
+						"live"
+					],
+					"path": [
+						"measurements",
+						"history",
+						"device-type",
+						"150"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "2022-04-29T10:00:00Z"
+						},
+						{
+							"key": "to",
+							"value": "2022-05-23T18:00:00Z"
+						},
+						{
+							"key": "resolution",
+							"value": "60m"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get per device",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTI0LCJpYXQiOjE2MTk2MzAwMzMsImV4cCI6MTkwOTcxNjQzM30.o2XZJEE9RE71Z-2z8oYLYD-9QANbi-fF1iTRvroTrx0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.cityflow.live/measurements/history/location/e00fce68870bfda1190b54f0?from=2022-04-29T10:00:00Z&to=2022-04-30T18:00:00Z&resolution=10m",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cityflow",
+						"live"
+					],
+					"path": [
+						"measurements",
+						"history",
+						"location",
+						"e00fce68870bfda1190b54f0"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "2022-04-29T10:00:00Z"
+						},
+						{
+							"key": "to",
+							"value": "2022-04-30T18:00:00Z"
+						},
+						{
+							"key": "resolution",
+							"value": "10m"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get edvice",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTI0LCJpYXQiOjE2MTk2MzAwMzMsImV4cCI6MTkwOTcxNjQzM30.o2XZJEE9RE71Z-2z8oYLYD-9QANbi-fF1iTRvroTrx0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.cityflow.live/devices",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cityflow",
+						"live"
+					],
+					"path": [
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forcast",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "29df1ee4-ed04-11ec-9e5f-0242ac130002-29df1f5c-ed04-11ec-9e5f-0242ac130002",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.stormglass.io/v2/weather/point\n?start=2022-06-16T00:00:00Z&end=2022-06-23T00:00:00Z&lat=56.140662&lng= 10.229412&params=precipitation,windSpeed,airTemperature",
+					"protocol": "https",
+					"host": [
+						"api",
+						"stormglass",
+						"io"
+					],
+					"path": [
+						"v2",
+						"weather",
+						"point\n"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2022-06-16T00:00:00Z"
+						},
+						{
+							"key": "end",
+							"value": "2022-06-23T00:00:00Z"
+						},
+						{
+							"key": "lat",
+							"value": "56.140662"
+						},
+						{
+							"key": "lng",
+							"value": " 10.229412"
+						},
+						{
+							"key": "params",
+							"value": "precipitation,windSpeed,airTemperature"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -4,6 +4,8 @@ query/bearer_token.py
 query/dmi_token.py
 dmi_data/2021
 dmi_data/2022
+dmi_data/2021.zip
+dmi_data/2022.zip
 
 # need to be in GIST
 sensor_data/latest.json
