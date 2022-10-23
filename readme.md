@@ -27,4 +27,4 @@ source .venv/bin/activate
 
 
 ## Improvement
-- It would not be possible to exclude other factors that contributin to the polluted air. The results over a year and a half shows that we do not have nay strong evidence showing that the increase in emission of cruises affect the air polllution. In the future improvement, we will have to consider more factors to provide more accurate result for the prediction such as road traffic. 
+- It would not be possible to exclude other factors that contributin to the polluted air. The results over a year and a half shows that we do not have any strong evidence showing that the increase in emission of cruises affect the air polllution. In the future improvement, we will have to consider more factors to provide more accurate result for the prediction such as road traffic. 
