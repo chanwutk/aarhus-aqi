@@ -1,5 +1,5 @@
 # Air Pollutions in Ports
-This work is affiliated with the [Århus City Lab](https://aarhuscitylab.dk/english/) team, ITK department at DOKK1 (Århus, Denmark).
+This work is affiliated with the [Aarhus City Lab](https://aarhuscitylab.dk/english/) team, ITK department at DOKK1 (Århus, Denmark).
 
 ## Start Project
 
