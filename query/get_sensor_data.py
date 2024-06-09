@@ -2,9 +2,9 @@ import requests
 import json
 
 import datetime
-from zoneinfo import ZoneInfo
+# from zoneinfo import ZoneInfo
 
-from bearer_token import token
+# from bearer_token import token
 
 def write_data(file, response):
     with open(file, "w", encoding='utf8') as f:
