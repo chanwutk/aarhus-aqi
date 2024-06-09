@@ -1,3 +1,4 @@
+# # Do not ignore anything to preserve all backup data
 .venv
 __pycache__
 query/bearer_token.py
@@ -5,5 +6,3 @@ query/dmi_token.py
 dmi_data/2021
 dmi_data/2022
 
-# need to be in GIST
-sensor_data/latest.json
